@@ -1,134 +1,175 @@
-Open-source technology and data for the future of Advanced Air Mobility.
+# AAM 
 
-AAM  is an open-source community project exploring the future of Advanced Air Mobility (AAM).
+### Open-source technology, data, and infrastructure for the future of Advanced Air Mobility.
 
-We build software, collect public data, create maps and developer tools, and document the technology, companies, infrastructure, regulations, research, and opportunities that may shape the next generation of air mobility.
+AAM is an open-source project focused specifically on the emerging **Advanced Air Mobility** ecosystem — including electric vertical takeoff and landing aircraft (eVTOLs), flying cars, air taxis, vertiports, charging infrastructure, routes, airspace, operations, regulation, and the software that connects everything together.
 
-This project is built by developers, researchers, aviation enthusiasts, designers, students, and anyone interested in the future of flight.
+The goal is simple:
 
-Our goal: start building the digital infrastructure and knowledge layer for the future global air-mobility ecosystem before the industry reaches large-scale adoption.
+> **Build the open digital infrastructure needed for the next generation of urban and regional air mobility.**
 
-🚀 What Are We Building?
+This is not a project about traditional airplanes or general aviation.
 
-Think of AAM  as an open-source information and technology layer for the future global air mobility ecosystem.
+It is about what comes **next**.
 
-We want to bring useful information into one structured system so developers and researchers can build on top of it.
+---
 
-The platform may eventually contain
+# 🚀 What Are We Building?
 
-🏢 AAM company directory
+The future of transportation may include:
 
-✈️ Aircraft / eVTOL database
-
-🛬 Vertiport and landing-site map
-
-🗺️ Geographic and infrastructure data
-
-📜 Regulation and policy tracker
-
-💼 Jobs and career opportunities
-
-🎓 Training and certification information
-
-🧪 Research and technical projects
-
-📰 Industry updates
-
-📊 Public datasets
-
-🔌 APIs for developers
-
-🤖 AI-powered search and analysis
-
-🧮 Route and infrastructure planning tools
-
-🌐 Open-source simulations and experiments
-
-We are not trying to build everything at once.
-
-The first goal is much simpler:
-
-Create a reliable, structured database of the global AAM ecosystem and make it accessible through a useful web application and API.
-
-🧠 What Is Advanced Air Mobility?
-
-Advanced Air Mobility (AAM) is a broad term for emerging aviation systems that can move people or goods using new aircraft, infrastructure, automation, and digital systems.
-
-Examples can include:
-
-eVTOL aircraft
-
-electric aircraft
-
-air taxis
-
-cargo aircraft
-
-drones
-
-vertiports
-
-traffic-management systems
-
-aviation software
-
-charging infrastructure
-
-navigation and communication systems
-
-The important idea is that AAM is not only about the aircraft.
-
-It also requires:
-
-Aircraft
-   ↓
-Infrastructure
-   ↓
-Airspace
-   ↓
-Regulation
-   ↓
-Operations
-   ↓
-Software
-   ↓
-People
-
-
-AAM       ' focuses especially on the software, data, research, and open-source layer.
-
-🎯 Why Does This Project Exist?
-
-A new aviation ecosystem will create many different types of information.
-
-For example:
-
-Company
-   ↓
-Aircraft
-   ↓
-Certification
-   ↓
+```text
+Home
+  ↓
+Ground Transport
+  ↓
 Vertiport
-   ↓
-Route
-   ↓
-Regulation
-   ↓
-Operator
-   ↓
-Pilot / Workforce
+  ↓
+Air Taxi / eVTOL
+  ↓
+Vertiport
+  ↓
+Ground Transport
+  ↓
+Destination
+```
 
+For this ecosystem to work at scale, much more than the aircraft is required.
 
-Today this information can be spread across company websites, government publications, research papers, news articles, datasets, and other sources.
+We need:
 
-Our goal is to progressively turn useful public information into:
+* 🛸 eVTOL / flying-car data
+* 🚕 Air taxi operators
+* 🛬 Vertiports
+* 🔋 Charging infrastructure
+* 🗺️ Routes and geographic data
+* 🌐 Airspace information
+* 📜 Regulations and certification
+* 🏙️ Urban infrastructure
+* 📡 Traffic-management systems
+* 💻 Operations software
+* 📊 Public datasets
+* 🔌 APIs
+* 🧮 Route and infrastructure planning
+* 🤖 AI-powered research and analysis
+* 🌍 Open-source simulations
 
+AAM aims to build the **software and data layer connecting these pieces together**.
+
+---
+
+# 🧠 What Is Advanced Air Mobility?
+
+**Advanced Air Mobility (AAM)** describes emerging transportation systems that use advanced aircraft and infrastructure to move people or goods through the air, especially in and around cities and between nearby regions.
+
+This project focuses primarily on systems such as:
+
+### 🛸 eVTOL Aircraft
+
+Electric or hybrid-electric aircraft capable of vertical takeoff and landing.
+
+Examples include aircraft designed for:
+
+* passenger transportation
+* air taxis
+* regional mobility
+* cargo transportation
+
+### 🚕 Air Taxis
+
+On-demand or scheduled short-distance passenger transportation using eVTOL aircraft.
+
+### 🛬 Vertiports
+
+Dedicated locations where eVTOL aircraft can:
+
+* take off
+* land
+* charge
+* board passengers
+* perform maintenance
+
+### 🔋 Charging Infrastructure
+
+Infrastructure required to support electric aircraft operations.
+
+### 🗺️ AAM Routes
+
+Potential and operational routes connecting:
+
+```text
+Vertiport A
+     ↓
+     ↓
+Vertiport B
+     ↓
+     ↓
+Vertiport C
+```
+
+### 🌐 Airspace
+
+The airspace systems and restrictions that affect future AAM operations.
+
+### 💻 Digital Infrastructure
+
+Software required to coordinate:
+
+```text
+Aircraft
+    ↓
+Operators
+    ↓
+Vertiports
+    ↓
+Routes
+    ↓
+Airspace
+    ↓
+Passengers
+    ↓
+Ground Transport
+```
+
+---
+
+# 🎯 Why Does This Project Exist?
+
+The AAM ecosystem is still being built.
+
+Aircraft are being developed.
+
+Vertiports are being planned.
+
+Regulations are evolving.
+
+Companies are experimenting with air-taxi operations.
+
+Infrastructure is being designed.
+
+But information about this ecosystem is often distributed across:
+
+```text
+Company websites
+Government publications
+Research papers
+Regulatory documents
+Infrastructure projects
+News
+Datasets
+Technical documentation
+```
+
+The goal of this project is to turn useful public information into a structured, open system.
+
+```text
 Public Sources
       ↓
 Data Collection
       ↓
-Cleaning + Verification
+Cleaning
+      ↓
+Verification
       ↓
 Structured Database
       ↓
@@ -136,214 +177,286 @@ API
       ↓
 Web Application
       ↓
-Maps / Search / Analytics / Developer Tools
+Maps / Search / Analytics
+      ↓
+Developer Tools
+```
 
+---
 
-🔎 Important Principle
+# 🏗️ What Could This Become?
 
-This project is about building useful infrastructure, not making predictions as facts.
+The project can eventually become an open platform for exploring the AAM ecosystem.
 
-We will clearly distinguish between:
+## 🛸 Aircraft Database
 
-official information
+Track publicly available information about eVTOL aircraft:
 
-company-reported information
+```text
+Aircraft
+├── Manufacturer
+├── Model
+├── Configuration
+├── Passenger capacity
+├── Range
+├── Cruise speed
+├── Propulsion
+├── Status
+├── Certification status
+└── Sources
+```
 
-research
+---
 
-community contributions
+## 🚕 Air Taxi Database
 
-estimates
+Track operators and planned services:
 
-experimental data
+```text
+Operator
+├── Company
+├── Service area
+├── Aircraft
+├── Vertiports
+├── Routes
+├── Operational status
+└── Sources
+```
 
-Every important data record should eventually have a source and verification information.
+---
+
+## 🛬 Vertiport Map
+
+Create a structured map of:
+
+* existing vertiports
+* planned vertiports
+* proposed locations
+* airports
+* heliports
+* charging locations
+* mobility hubs
+
+Eventually:
+
+```text
+Vertiport A
+      │
+      ├──── Route 1
+      │
+      ├──── Route 2
+      │
+      └──── Route 3
+```
+
+---
+
+## 🔋 Infrastructure Database
+
+Track infrastructure needed for AAM:
+
+* charging stations
+* vertiports
+* maintenance facilities
+* mobility hubs
+* energy infrastructure
+* ground transportation connections
+
+---
+
+## 🗺️ Route Planning
+
+Eventually experiment with questions such as:
+
+```text
+What is the shortest route?
+
+Which vertiport is closest?
+
+How far can an aircraft travel?
+
+Where should new vertiports be placed?
+
+How many vertiports are needed for a region?
+
+What ground transportation connects to a vertiport?
+```
+
+These are **research and planning tools**, not real-world flight-control systems.
+
+---
+
+# 📊 AAM Data Platform
+
+The project should eventually expose the data through APIs.
 
 Example:
 
+```http
+GET /aircraft
+GET /aircraft/{id}
+
+GET /operators
+GET /operators/{id}
+
+GET /vertiports
+GET /vertiports/{id}
+
+GET /routes
+
+GET /infrastructure
+
+GET /regulations
+
+GET /projects
+```
+
+Developers should be able to build their own applications using the data.
+
+---
+
+# 🤖 AI
+
+AI should come **after the data foundation**.
+
+Once the dataset becomes reliable, AI can help with:
+
+### Natural Language Search
+
+```text
+"Show eVTOL aircraft with more than 150 km range."
+```
+
+### Research
+
+```text
+"Which companies are developing passenger eVTOLs?"
+```
+
+### Infrastructure Analysis
+
+```text
+"Which areas have potential for future vertiports?"
+```
+
+### Regulation Research
+
+```text
+"Summarize recent AAM regulatory changes."
+```
+
+### Data Extraction
+
+Automatically extract structured information from approved public sources.
+
+The principle is:
+
+> **Good data → Good API → Good applications → Useful AI**
+
+---
+
+# 🔎 Data Principles
+
+AAM is an emerging industry, so information can change quickly.
+
+We should never present speculation as fact.
+
+Every important record should identify its source.
+
+Possible source categories:
+
+* Official
+* Company reported
+* Research
+* Regulatory
+* Community
+* Estimated
+* Experimental
+
+Example:
+
+```json
 {
-  "company": "Example Aviation",
-  "status": "active",
-  "source": "official company source",
+  "aircraft": "Example eVTOL",
+  "status": "development",
+  "range_km": 150,
+  "source": "official company publication",
   "last_verified": "2026-10-05"
 }
+```
 
+Important information should eventually contain:
 
-🏗️ First Version — MVP
+```text
+source
+source_url
+published_at
+retrieved_at
+last_verified_at
+confidence
+```
 
-We are deliberately keeping the first version small.
+---
 
-Phase 1
+# 🛠️ Technology Stack
 
-The first working version should contain only:
+We want the project to remain simple enough for contributors to understand.
 
-1. Company Directory
+## Frontend
 
-Store information such as:
+| Technology     | Purpose          |
+| -------------- | ---------------- |
+| Next.js        | Web application  |
+| React          | UI               |
+| TypeScript     | Type safety      |
+| Tailwind CSS   | Styling          |
+| MapLibre GL JS | Interactive maps |
 
-Company
-Location
-Website
-Description
-Industry
-Aircraft
-Status
-Source
-Last verified
+## Backend
 
+| Technology | Purpose             |
+| ---------- | ------------------- |
+| Python     | Backend language    |
+| FastAPI    | API server          |
+| SQLAlchemy | Database access     |
+| Alembic    | Database migrations |
 
-2. Source Database
+## Database
 
-Every piece of important information should be connected to its source.
+| Technology | Purpose         |
+| ---------- | --------------- |
+| PostgreSQL | Main database   |
+| PostGIS    | Geographic data |
 
-Source
- ├── URL
- ├── Source type
- ├── Published date
- ├── Retrieved date
- └── Last verified
+## Data
 
+| Technology    | Purpose            |
+| ------------- | ------------------ |
+| Python        | Data processing    |
+| HTTPX         | HTTP requests      |
+| BeautifulSoup | HTML parsing       |
+| Playwright    | Browser automation |
+| Pandas        | Data processing    |
 
-3. Search
+We should not add technologies just because they are popular.
 
-Users should be able to search:
+Redis, Kafka, Celery, Kubernetes, AI agents, complex simulations, and other infrastructure should only be introduced when the project actually needs them.
 
-eVTOL
-Dubai
-Singapore
-vertiport
-air taxi
-electric aircraft
-jobs
-regulation
+---
 
+# 📁 Project Structure
 
-4. Simple Dashboard
-
-The website should show:
-
-Companies
-Aircraft
-Locations
-Recent Updates
-Projects
-
-
-5. Map
-
-Later in Phase 1, companies, infrastructure and other relevant locations can appear on an interactive map.
-
-🛠️ Technology Stack
-
-We intentionally use technologies that are popular, open-source, and easy for contributors to learn.
-
-Frontend
-
-Technology
-
-Purpose
-
-Next.js
-
-Web application
-
-React
-
-UI
-
-TypeScript
-
-Safer JavaScript
-
-Tailwind CSS
-
-Styling
-
-MapLibre GL JS
-
-Interactive maps
-
-Backend
-
-Technology
-
-Purpose
-
-Python
-
-Main backend language
-
-FastAPI
-
-API server
-
-SQLAlchemy
-
-Database access
-
-Alembic
-
-Database migrations
-
-Database
-
-Technology
-
-Purpose
-
-PostgreSQL
-
-Main database
-
-PostGIS
-
-Geographic/location data
-
-Data Collection
-
-Technology
-
-Purpose
-
-Python
-
-Data processing
-
-HTTPX
-
-HTTP requests
-
-BeautifulSoup
-
-HTML parsing
-
-Playwright
-
-Websites requiring browser automation
-
-Pandas
-
-Data processing
-
-We should not automatically add every technology we know.
-
-For example, Redis, Kafka, Celery, Kubernetes, AI agents, and complex simulation systems should only be introduced when the project actually needs them.
-
-📁 Project Structure
-
-The repository will use a simple monorepo structure.
-
-aam-      '/
+```text
+aam/
 │
 ├── apps/
-│   │
-│   ├── web/                    # Next.js frontend
+│   ├── web/
 │   │   ├── app/
 │   │   ├── components/
 │   │   ├── lib/
 │   │   └── public/
 │   │
-│   └── api/                    # FastAPI backend
+│   └── api/
 │       ├── app/
 │       │   ├── api/
 │       │   ├── models/
@@ -353,14 +466,14 @@ aam-      '/
 │       └── tests/
 │
 ├── data/
-│   ├── raw/                    # Original collected data
-│   ├── processed/              # Cleaned data
-│   ├── seed/                   # Initial verified dataset
-│   └── schemas/                # Data definitions
+│   ├── raw/
+│   ├── processed/
+│   ├── seed/
+│   └── schemas/
 │
 ├── scraper/
-│   ├── sources/                # Individual source collectors
-│   ├── pipelines/              # Cleaning / validation
+│   ├── sources/
+│   ├── pipelines/
 │   └── tests/
 │
 ├── docs/
@@ -380,421 +493,440 @@ aam-      '/
 ├── docker-compose.yml
 ├── LICENSE
 └── README.md
+```
 
+---
 
-🧩 What Goes Where?
+# 🧩 What Goes Where?
 
-This is important for contributors.
-
-apps/web/
+## `apps/web/`
 
 Everything users see in the browser.
 
 Examples:
 
-Company page
-Search page
-Map
+```text
+Aircraft pages
+Operator pages
+Vertiport map
+Route pages
+Infrastructure map
 Dashboard
-Aircraft page
-Jobs page
+Search
+```
 
+## `apps/api/`
 
-apps/api/
-
-Everything responsible for serving data.
+Everything responsible for serving project data.
 
 Example:
 
-GET /companies
-GET /companies/{id}
+```http
 GET /aircraft
-GET /locations
-GET /sources
+GET /operators
+GET /vertiports
+GET /routes
+GET /infrastructure
+```
 
+## `data/`
 
-data/
+Structured datasets and schemas.
 
-Datasets and schemas.
+This should not become a random collection of files.
 
-This directory should not become a random dump of files.
+## `scraper/`
 
-scraper/
+Code that collects public information.
 
-Code that collects information from public sources.
+```text
+Public Source
+      ↓
+    Scraper
+      ↓
+   Raw Data
+      ↓
+   Cleaning
+      ↓
+ Validation
+      ↓
+  Database
+```
 
-Example:
+## `docs/`
 
-Government website
-       ↓
-scraper
-       ↓
-raw data
-       ↓
-cleaning
-       ↓
-validation
-       ↓
-database
+Documentation for developers, researchers, and contributors.
 
+---
 
-docs/
+# 💻 Development Setup
 
-Documentation for contributors and researchers.
-
-💻 Development Setup
-
-Step 1 — Install the prerequisites
+## Step 1 — Install
 
 You need:
 
-Git
+* Git
+* Docker Desktop
+* Node.js
+* Python
 
-Docker Desktop
+PostgreSQL does not need to be installed manually when using Docker.
 
-Node.js
+---
 
-Python
+## Step 2 — Clone
 
-You do not need to install PostgreSQL manually when using the project's Docker setup.
+```bash
+git clone https://github.com/YOUR-ORGANIZATION/aam.git
+cd aam
+```
 
-Step 2 — Clone the repository
+---
 
-git clone https://github.com/YOUR-ORGANIZATION/aam-      '.git
-cd aam-      '
-
-
-Step 3 — Create environment file
+## Step 3 — Environment
 
 Copy:
 
+```text
 .env.example
-
+```
 
 to:
 
+```text
 .env
-
-
-The .env file contains local configuration.
+```
 
 Example:
 
+```env
 DATABASE_URL=postgresql://postgres:postgres@db:5432/aam
 API_PORT=8000
 WEB_PORT=3000
-
+```
 
 Never commit real passwords or API keys.
 
-🐳 Step 4 — Start the Development Environment
+---
 
-The recommended development method is Docker.
+# 🐳 Step 4 — Start
 
 Run:
 
+```bash
 docker compose up --build
+```
 
+Expected services:
 
-This should start the project's required services.
-
-Expected local services:
-
+```text
 Frontend
 http://localhost:3000
 
 Backend
 http://localhost:8000
 
-FastAPI documentation
+API Documentation
 http://localhost:8000/docs
+```
 
+---
 
-🧪 Step 5 — Verify the Backend
+# 🧪 Step 5 — Verify
 
 Open:
 
+```text
 http://localhost:8000/docs
+```
 
+You should see the FastAPI documentation.
 
-You should see the FastAPI Swagger documentation.
+Test:
 
-Try a simple endpoint such as:
-
+```text
 GET /health
+```
 
+Expected:
 
-Expected response:
-
+```json
 {
   "status": "ok"
 }
+```
 
+---
 
-🌐 Step 6 — Verify the Frontend
+# 🌐 Step 6 — Frontend
 
 Open:
 
+```text
 http://localhost:3000
+```
 
+You should see the AAM application.
 
-You should see the AAM       ' web application.
+---
 
-🗃️ Database
+# 🗃️ Database
 
-The initial database should stay simple.
+The initial database should remain simple.
 
-Possible initial tables:
+Possible tables:
 
-companies
+```text
 aircraft
-locations
+manufacturers
+operators
 vertiports
+routes
+infrastructure
 regulations
-jobs
+projects
 sources
 updates
+```
 
+Example:
 
-Example relationship:
+```text
+Aircraft
+   │
+   ├── Manufacturer
+   │
+   ├── Operator
+   │
+   ├── Routes
+   │
+   └── Sources
 
-Company
-  │
-  ├── Aircraft
-  ├── Locations
-  ├── Jobs
-  └── Sources
+Vertiport
+   │
+   ├── Routes
+   ├── Infrastructure
+   └── Operator
+```
 
+PostGIS can later support geographic queries such as:
 
-PostGIS can later allow geographic queries such as:
+```text
+Find the nearest vertiport
 
-Find locations within 20 km
-Find nearest vertiport
-Find companies in a region
+Find vertiports within 20 km
+
+Find potential infrastructure locations
+
+Find routes between two locations
+
 Find infrastructure inside an area
+```
 
+---
 
-🗺️ Map Development
+# 🗺️ Map Development
 
-The first map should not attempt to model the entire global airspace.
+The first map should focus on the AAM ecosystem.
 
-Start with simple geographic information:
+Start with:
 
-Company location
-Airport
-Helipad
-Potential vertiport
-Research location
-AAM project location
+```text
+Vertiports
+Airports
+Heliports
+Charging Infrastructure
+AAM Projects
+Operators
+Aircraft Locations
+Potential Vertiport Locations
+```
 
+Later experiments can include:
 
-Later, the project can experiment with:
+```text
+Routes
+Airspace
+Restricted Areas
+Vertiport Networks
+Terrain
+Weather
+Traffic
+```
 
-airspace
-restricted zones
-routes
-vertiport networks
-weather
-terrain
-traffic
+These visualizations are experimental.
 
+They must not be treated as operational aviation systems.
 
-Any safety-critical aviation use must be treated separately from an experimental visualization.
+---
 
-🧹 Data Rules
+# 🛣️ Roadmap
 
-Data quality is one of the most important parts of this project.
+## Phase 0 — Foundation
 
-Before adding information:
-
-Ask:
-
-Where did this information come from?
-
-Is the source public?
-
-Is the information current?
-
-Is it fact, estimate, or opinion?
-
-Can another contributor verify it?
-
-Every important record should eventually contain:
-
-source
-source_url
-published_at
-retrieved_at
-last_verified_at
-confidence
-
-
-🤖 AI
-
-AI is not the first feature.
-
-Once we have a reliable dataset, AI can help with:
-
-Natural-language search
-"Which companies are working on electric VTOL?"
-
-Summarization
-"Summarize recent regulatory changes."
-
-Research assistant
-"Show all publicly known vertiport projects in Bengaluru."
-
-Data extraction
-Extract structured information from approved sources.
-
-Question answering
-Ask questions about the project's dataset.
-
-
-The database comes first.
-
-Good data → good API → good applications → useful AI.
-
-🛣️ Roadmap
-
-Phase 0 — Foundation
-
-[ ] Create GitHub organization
-[ ] Create main repository
+```text
+[ ] Create organization
+[ ] Create repository
 [ ] Define contribution rules
 [ ] Define database schema
-[ ] Create basic Next.js application
-[ ] Create basic FastAPI application
+[ ] Create Next.js application
+[ ] Create FastAPI application
 [ ] Add PostgreSQL + PostGIS
-[ ] Add Docker development environment
-[ ] Add CI tests
+[ ] Add Docker environment
+[ ] Add CI
+```
 
+## Phase 1 — MVP
 
-Phase 1 — MVP
-
-[ ] Company database
+```text
+[ ] eVTOL database
+[ ] Manufacturer database
+[ ] Operator database
 [ ] Source tracking
 [ ] Search
-[ ] Company profiles
+[ ] Aircraft profiles
 [ ] Basic map
 [ ] API
-[ ] Admin/data validation workflow
-[ ] Initial public dataset
+[ ] Initial dataset
+```
 
+## Phase 2 — AAM Infrastructure
 
-Phase 2 — Ecosystem Data
-
-[ ] Aircraft database
+```text
 [ ] Vertiport database
+[ ] Charging infrastructure
+[ ] Route database
+[ ] Infrastructure map
 [ ] Regulation tracker
-[ ] Jobs
-[ ] Research database
-[ ] Industry updates
-[ ] Data export
+[ ] AAM projects
+[ ] Data exports
+```
 
+## Phase 3 — Developer Platform
 
-Phase 3 — Developer Platform
-
+```text
 [ ] Public API
 [ ] API documentation
 [ ] JSON exports
 [ ] GeoJSON exports
 [ ] Python SDK
-[ ] JavaScript/TypeScript SDK
+[ ] JavaScript / TypeScript SDK
+```
 
+## Phase 4 — Advanced Tools
 
-Phase 4 — Advanced Tools
-
+```text
 [ ] Route planning experiments
+[ ] Vertiport planning
 [ ] Infrastructure analysis
 [ ] Weather integration
 [ ] Simulation experiments
 [ ] 3D visualization
 [ ] AI research assistant
+```
 
-
-Phase 5 — Long-Term
+## Phase 5 — Long Term
 
 Potential directions:
 
-[ ] AAM infrastructure planning
-[ ] Digital twins
-[ ] Simulation environments
-[ ] Research collaborations
+```text
+[ ] AAM digital twins
+[ ] Large-scale simulations
+[ ] Infrastructure planning
 [ ] Open datasets
+[ ] Research collaborations
 [ ] Developer ecosystem
 [ ] Industry partnerships
+```
 
+The roadmap will evolve as AAM technology, infrastructure, and regulation develop.
 
-The roadmap is intentionally flexible.
+---
 
-Technology and regulation will change as the industry develops.
+# 👥 Who Can Contribute?
 
-👥 Who Can Contribute?
+You do **not** need to be an aviation expert.
 
-You do not need to be an aviation expert.
-
-Developers
+## Developers
 
 Build:
 
+```text
 Frontend
 Backend
 APIs
 Maps
+Data pipelines
 Automation
 Testing
 DevOps
 AI tools
+```
 
+## Data Contributors
 
-Data contributors
+Find, verify, and structure public AAM information.
 
-Find, verify and structure public information.
+## Aviation Enthusiasts
 
-Aviation enthusiasts
+Help explain AAM concepts and validate information.
 
-Help explain aviation concepts and validate information.
+## Researchers
 
-Researchers
+Add:
 
-Add papers, research projects, datasets and technical references.
+```text
+Research papers
+Datasets
+Technical references
+Experiments
+```
 
-Designers
+## Designers
 
-Create:
+Work on:
 
+```text
 UI
 UX
 Maps
 Dashboards
 Visualizations
 Branding
+```
 
-
-Writers
+## Writers
 
 Improve:
 
+```text
 Documentation
 Tutorials
 Research summaries
+AAM terminology
 Project explanations
+```
 
+---
 
-🟢 Good First Issues
+# 🟢 Good First Issues
 
-New contributors can start with small tasks.
+New contributors can start small.
 
 Examples:
 
-Add one verified AAM company
+```text
+Add one verified eVTOL aircraft
 
-Add a company profile page
+Add an aircraft profile
 
-Add one source to the database
+Add an AAM company
 
-Create a map marker component
+Add a vertiport
+
+Add a public source
+
+Create a map marker
 
 Improve the README
 
@@ -805,158 +937,178 @@ Add a database model
 Improve mobile UI
 
 Write an AAM terminology guide
+```
 
+Useful labels:
 
-Issues marked:
-
+```text
 good first issue
 help wanted
 documentation
 frontend
 backend
 data
+maps
 research
+```
 
+---
 
-are suitable starting points.
+# 🔀 Contribution Workflow
 
-🔀 Contribution Workflow
+### 1. Fork
 
-1. Fork the repository
+Create your own copy of the repository.
 
-Create your own copy of the project.
+### 2. Clone
 
-2. Clone it
-
+```bash
 git clone YOUR-FORK-URL
-cd aam-      '
+cd aam
+```
 
+### 3. Create a branch
 
-3. Create a branch
+```bash
+git checkout -b feature/aircraft-search
+```
 
-git checkout -b feature/company-search
+### 4. Make your changes
 
+### 5. Test
 
-4. Make your changes
-
-5. Test your changes
-
+```bash
 docker compose up --build
-
+```
 
 Run the project's tests.
 
-6. Commit
+### 6. Commit
 
+```bash
 git add .
-git commit -m "Add company search"
+git commit -m "Add aircraft search"
+```
 
+### 7. Push
 
-7. Push
+```bash
+git push origin feature/aircraft-search
+```
 
-git push origin feature/company-search
-
-
-8. Open a Pull Request
+### 8. Open a Pull Request
 
 Explain:
 
+```text
 What changed?
 
 Why was it needed?
 
 How was it tested?
+```
 
+---
 
-⚠️ Project Scope & Safety
+# ⚠️ Project Scope & Safety
 
-AAM       ' is an open-source technology and research project.
+This project is an **open-source technology, data, and research project for Advanced Air Mobility**.
 
 It is not:
 
-a government aviation authority
+* an aircraft manufacturer
+* an air-taxi operator
+* an air-traffic-control system
+* a certification authority
+* a flight-control system
+* a source of operational flight approval
+* a replacement for official aviation regulations
 
-an aircraft operator
+Maps, routes, simulations, infrastructure suggestions, and other experimental features must not be treated as real-world flight instructions.
 
-an air-traffic-control system
+Safety-critical aviation information must always be verified against the appropriate official authority.
 
-a certification authority
+---
 
-a source of operational flight approval
+# 📚 Sources
 
-a replacement for official aviation regulations
+The project should prioritize reliable sources such as:
 
-Information related to aviation safety, regulation, airspace, certification, or flight operations must always be checked against the appropriate official authority before real-world use.
+* official aviation authorities
+* government publications
+* regulatory documents
+* official aircraft/manufacturer publications
+* official operator publications
+* academic research
+* recognized aviation organizations
+* publicly available infrastructure information
 
-📚 Sources
+Third-party information should be clearly identified.
 
-The project should prioritize authoritative sources such as:
+---
 
-aviation authorities and regulators
+# 🌱 Philosophy
 
-government aviation agencies
+The future of air mobility should not be understandable only to people inside the industry.
 
-airport and air-navigation authorities
+We want developers, researchers, students, builders, and aviation enthusiasts to be able to explore:
 
-official national aviation databases
+```text
+What aircraft are being developed?
 
-official company publications
+Who is building them?
 
-academic research
+Who plans to operate them?
 
-recognized aviation organizations
+Where are vertiports being planned?
 
-Third-party information should be clearly identified as such.
+What infrastructure is required?
 
-🌱 Our Philosophy
+What routes could exist?
 
-We believe the next generation of technology should not be built only behind closed doors.
+What regulations are changing?
 
-A developer anywhere in the world should be able to discover:
+What technologies are being developed?
 
-What companies are building
-What technologies exist
-What regulations are changing
-Where infrastructure is being developed
-What research is happening
-What jobs are appearing
+What opportunities are emerging?
+```
 
-
-and then use open data and open-source software to build something new.
+Then use open data and open-source software to build something new.
 
 We are starting small.
 
 The first version does not need to predict the future.
 
-It just needs to document it, structure it, and make it easier for everyone to build.
+It needs to **document it, structure it, and make it easier for everyone to build.**
 
-⭐ Join Us
+---
+
+# ⭐ Join Us
 
 You don't need to know everything about aviation.
 
 You can learn while contributing.
 
-You can write code.
+You can:
 
-You can research.
-
-You can design.
-
-You can collect data.
-
-You can ask questions.
-
-You can create experiments.
+* write code
+* research
+* collect data
+* build maps
+* design interfaces
+* analyze infrastructure
+* document technologies
+* create experiments
+* help other contributors
 
 The objective is simple:
 
-Learn together. Build in public. Create the open technology layer for the future global air mobility ecosystem.
+> **Learn together. Build in public. Build the open technology layer for the future of Advanced Air Mobility.**
 
-License
+---
 
-MIT License.
+## License
 
-See LICENSE for details.
+This project is licensed under the **MIT License**.
 
-Built in public 🌍
-For the future of mobility. ✈️
+See [`LICENSE`](LICENSE) for details.
