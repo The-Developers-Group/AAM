@@ -1,3 +1,4 @@
+#note - this is Ai written not fully mature idea for starting direction this will work ..
 # AAM 
 
 ### Open-source technology, data, and infrastructure for the future of Advanced Air Mobility.
