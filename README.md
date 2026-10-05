@@ -577,7 +577,7 @@ PostgreSQL does not need to be installed manually when using Docker.
 ## Step 2 — Clone
 
 ```bash
-git clone https://github.com/YOUR-ORGANIZATION/aam.git
+git clone https://github.com/The-Developers-Group/AAM
 cd aam
 ```
 
